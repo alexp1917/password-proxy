@@ -1,0 +1,6 @@
+password-proxy:
+  url: ${BACKEND_URL:http://localhost:9000}
+  admin:
+    enabled: ${ADMIN:true}
+    username: ${ADMIN_USERNAME:admin}
+    password: ${ADMIN_PASSWORD:admin}
